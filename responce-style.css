@@ -1,0 +1,449 @@
+@media only screen and (max-width: 1200px) {
+.side-info {
+	width: 25%;
+}
+.menu-left,
+.menu-right {
+	justify-content: center;
+	width: 55%;
+	display: flex;
+	align-items: center;
+}
+.working-hours-style {
+  top: 320px;
+  left: 110px;
+  margin-bottom: 20px;
+}
+.menu {
+	gap: 6px;
+	flex-wrap: wrap;
+	height: 80px;
+	margin: 0px;
+	width: 100%;
+	flex-direction: column;
+	align-items: center;
+}
+.header-info {
+	width: 50%;
+}
+.section-inner {
+	width: 50%;
+  height: auto;
+}
+.inner-tex-box {
+  width: 70%;
+}
+.images-section {
+  width: 50%;
+}
+.image-descrip {
+  width: 90%;
+  height: 90%;
+  margin-left: 30px;
+}
+
+.image-descrip-frame {
+  right: 120px;
+  top: 140px;
+  width: 155px;
+  height: 155px;
+}
+
+.left {
+	right: 30px;
+}
+
+h4 {
+	font-size: 32px;
+}
+
+.large {
+	width: 98%;
+	height: auto;
+	display: flex;
+}
+
+.inner-box {
+  width: 50%;
+  height: 350px;
+}
+
+.line-boxx {
+	width: 80%;
+	height: 350px;
+}
+
+.private-event-img {
+  width: 285px;
+  height: 350px;
+}
+
+.no-position-right {
+  height: 155px;
+  width: 155px;
+  top: 270px;
+  right: 70px;
+}
+
+.no-position {
+  position: relative;
+  top: -70px;
+  height: 155px;
+  width: 155px;
+}
+
+h6{
+	width: 75px;
+	right: 100px;
+	bottom: 100px;
+}
+
+.opposite {
+  right: -90px;
+  top: 90px;
+}
+
+.smaller-box {
+  width: 50%; 
+  height: 70px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+	justify-content: center;
+}
+
+.contact-section {
+	height: 647px;
+}
+.contact-box {
+	width: 29.5%;
+}
+}
+
+@media only screen and (max-width: 914px) {
+header {
+	height: auto;
+}
+.specialties-section {
+ height: 725px;
+}
+.image-descrip {
+width: 310px;
+height: 365px;
+  position: relative;
+}
+h1 {
+    font-family: Raleway;
+    font-size: 46px!important;
+  }
+.social-btn,
+.down-btn {
+	margin-bottom: 30px;
+}
+
+.right {
+	gap:0;
+	justify-content: flex-end;
+}
+
+.working-hours-style {
+  top: 210px;
+  left: 40px;
+  margin-bottom: 4px;
+}
+
+.main-section {
+	flex-direction: column;
+	height: auto;
+}
+
+.section-inner {
+	width: 90%;
+  height: auto;
+}
+
+.inner-tex-box {
+  width: 90%;
+}
+
+.images-section {
+  width: 50%;
+}
+
+.booking-section {
+	height: auto;
+}
+
+.menu-categories-container-inner {
+	justify-content: center;
+}
+
+.private-event,
+.large {
+  width: 100%;
+  height: auto;
+}
+
+.inner-box {
+  width: 90%;
+  height: auto;
+}
+
+.line-boxx {
+	width: 300px;
+	height: 302px;
+	right: -80px;
+	border: 1px solid #E8C300;
+}
+
+.private-event-img {
+  width: 320px;
+  height: 298px;
+  border: 2px solid #E8C300;
+}
+
+.right-position {
+	position: relative;
+	left: 230px;
+	margin-top: 2px;
+}
+
+.no-position-right {
+  height: 155px;
+  width: 155px;
+  top: 270px;
+  right: 70px;
+  display: none;
+}
+
+.no-position {
+  position: relative;
+  top: -70px;
+  height: 155px;
+  width: 155px;
+  display: none;
+}
+
+.opposite {
+  right: -70px;
+  top: 90px;
+}
+
+.contact-box {
+  width: 27.5%;
+}
+
+textarea {
+	width: 92%;
+}
+
+}
+
+@media only screen and (max-width: 614px) {
+h1 {
+    font-family: Raleway;
+    font-size: 41px!important;
+}
+.line-boxx {
+  width:auto;
+  min-height: 275px;
+}
+.inner-box {
+  height: 300px;
+}
+.social-btn,
+.down-btn,
+.working-hours-style {
+	display: none;
+}
+.image-descrip {
+  width: 289px;
+  height: 270px;
+  position: relative;
+}
+.images-section-right::after {
+  content: "";
+  position: absolute;
+  width: 77px;
+  height: 77px;
+  right: 46px;
+  top: -7px;
+  border: 7px solid #E8C300;
+}
+.images-section-left::after {
+  content: "";
+  position: absolute;
+  width: 77px;
+  height: 77px;
+  left: 29px;
+  top: -11px;
+  border: 7px solid #E8C300;
+}
+.image-descrip-frame {
+  right: 75px;
+  width: 105px;
+  height: 105px;
+  bottom: 20px;
+}
+
+.left {
+  right: 70px;
+  top: 50px;
+}
+
+.about-us {
+  height: 500px;
+}
+
+.reservation-form {
+  max-width: 450px;
+  height: auto;
+}
+
+form {
+	flex-direction: column;
+	flex-wrap: nowrap;
+	max-width: 400px;
+	align-items: center;
+}
+
+.submit-btn {
+  width: 267.5px;
+}
+.contact-details {
+  width: 90%;
+}
+.item-style {
+  margin: 0;
+}
+.specialties-section {
+  height: 575px;
+}
+.inner-tex-box {
+  width: 70%;
+}
+.menu-categories-style {
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+.meal-description-container p {
+  font-family: Raleway;
+  margin: 4px;
+	font-size: 14px;
+}
+
+.meal-description-container {
+  width: 310px;
+}
+
+.linnnnn {
+	display: inline-flex;
+	gap:10px;
+}
+
+.contact-section {
+  height: auto;
+}
+
+.contact-box {
+  width: 67.5%;
+}
+
+.send-message-btn {
+  width: 67.5%;
+}
+
+.large{
+	margin: 30px 0;
+}
+
+.smaller-box{
+	float: right;
+}
+
+.line-boxx {
+  width: 300px;
+  height: 300px;
+  right: 0px;
+}
+.line-boxx {
+  width: 250px;
+  height: 202px;
+}
+
+.private-event-img {
+  width: 220px;
+  height: 198px;
+}
+
+h6 {
+	font-size: 18px;
+	left: -50px;
+  bottom: 60px;
+}
+
+.opposite {
+  left: 40px;
+  top: 50px;
+}
+
+}
+
+
+@media only screen and (max-width: 440px) {
+
+.menu-categories {
+  flex-wrap: wrap;
+}
+.form-control {
+  width: 92%!important;
+}
+.specialties-section,
+.about-us,
+.team-section {
+  height: 476px;
+}
+
+h4 {
+  font-size: 28px;
+}
+
+p {
+	font-size: 12px;
+}
+
+.font-size-changed {
+	font-size: 14px;
+}
+
+.menu-categories-style {
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+.line-boxx {
+  width: 250px;
+  height: 202px;
+}
+
+.private-event-img {
+  width: 220px;
+  height: 198px;
+}
+
+h6 {
+	font-size: 18px;
+	left: -50px;
+  bottom: 60px;
+}
+
+.opposite {
+  left: 40px;
+  top: 50px;
+}
+
+.right-position {
+ left: 105px;
+}
+}
